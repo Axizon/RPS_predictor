@@ -1,7 +1,7 @@
 # RPS_predictor
 
 ## Description
-This project is a Rock-Paper-Scissors prediction algorithm written in C. It implements many ideas from Daniel Lawrence's [RPS Algorithm write-up](https://daniel.lawrence.lu/programming/rps/). For more information on RPS programming contests, see [rpscontest.com](http://www.rpscontest.com/).
+This is a Rock-Paper-Scissors prediction algorithm written in C. It implements many ideas from Daniel Lawrence's [RPS Algorithm write-up](https://daniel.lawrence.lu/programming/rps/). For more information on RPS programming contests, see [rpscontest.com](http://www.rpscontest.com/).
 
 My prediction algorithm is provided in `player_Axyzon.c`. It is based upon various permutations of two algorithms that use historical results to predict future choices (through string matching). It leverages a tournament-style predictor to choose which algorithm is most likely correct. The infrastructure for running matches and tournaments is the property of Binghamton University.
 
